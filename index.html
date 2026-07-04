@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Muhammad Uzaif — Full Stack / MERN Developer</title>
+<meta name="description" content="Portfolio of Muhammad Uzaif, Full Stack / MERN Developer based in Rawalpindi, Pakistan." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<div class="progress-bar" id="progressBar"></div>
+
+<header class="nav">
+  <a href="#top" class="nav-mark">MU</a>
+  <nav class="nav-links">
+    <a href="#about"><span>About</span></a>
+    <a href="#work"><span>Work</span></a>
+    <a href="#skills"><span>Skills</span></a>
+    <a href="#contact"><span>Contact</span></a>
+  </nav>
+  <div class="nav-status">
+    <span class="pulse-dot"></span>
+    Just want to CODE
+  </div>
+  <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+    <span></span><span></span>
+  </button>
+</header>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about">About</a>
+  <a href="#work">Work</a>
+  <a href="#skills">Skills</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<main id="top">
+
+  <!-- ============ HERO ============ -->
+  <section class="hero">
+    <p class="eyebrow reveal">Portfolio — 2026</p>
+    <h1 class="hero-name" id="heroName">Muhammad&nbsp;Uzaif</h1>
+    <p class="hero-role reveal">
+      Full Stack <span class="slash">/</span> MERN Developer
+      <span class="role-underline" aria-hidden="true"></span>
+    </p>
+    <p class="hero-pitch reveal">
+      Software Engineering student building fast, full-stack products with
+      the MERN stack — from authentication flows to real-time chat.
+      Based in Rawalpindi, Pakistan.
+    </p>
+    <div class="hero-actions reveal">
+      <a href="#work" class="btn btn-solid">View work</a>
+      <a href="#contact" class="btn btn-line">Say hello</a>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to about section">
+      <span class="scroll-cue-line"></span>
+      Scroll
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="section-grid">
+      <div class="section-head reveal">
+        <p class="label">01 — About</p>
+        <h2>A little context.</h2>
+      </div>
+      <div class="about-body">
+        <p class="about-bio reveal">
+          I'm a Software Engineering undergraduate at Air University, Islamabad
+          (expected 2028), currently looking for a Full Stack / MERN Developer
+          internship. I'm comfortable across the MERN stack — MongoDB,
+          Express.js, React, and Node.js — with hands-on project experience
+          in authentication, REST APIs, real-time features, and responsive
+          UI development.
+        </p>
+        <dl class="fact-list reveal">
+          <div class="fact-row">
+            <dt>Based in</dt>
+            <dd>Rawalpindi, Pakistan</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Studying</dt>
+            <dd>BS Software Engineering, Air University <span class="muted">(Exp. 2028)</span></dd>
+          </div>
+          <div class="fact-row">
+            <dt>Focus</dt>
+            <dd>MERN Stack Development</dd>
+          </div>
+          <div class="fact-row">
+            <dt>Status</dt>
+            <dd>Just want to code</dd>
+          </div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section">
+    <div class="section-grid">
+      <div class="section-head reveal">
+        <p class="label">02 — Experience</p>
+        <h2>Where I've worked.</h2>
+      </div>
+      <div class="experience-body">
+        <div class="exp-row reveal">
+          <div class="exp-bar" aria-hidden="true"></div>
+          <div class="exp-content">
+            <div class="exp-top">
+              <h3>Frontend Development Intern</h3>
+              <span class="exp-date">June 2026</span>
+            </div>
+            <p class="exp-org">SincaAI</p>
+            <p class="exp-desc">
+              Learned and applied React.js and Node.js in a real-world
+              development environment. Built frontend UI components and
+              gained practical exposure to full-stack workflows.
+            </p>
+            <div class="tag-row">
+              <span class="tag">React.js</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Full-stack workflow</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ WORK / PROJECTS ============ -->
+  <section id="work" class="section">
+    <div class="section-grid">
+      <div class="section-head reveal">
+        <p class="label">03 — Work</p>
+        <h2>Selected projects.</h2>
+      </div>
+
+      <div class="project-list">
+
+        <article class="project-row reveal" data-open="false">
+          <button class="project-summary" aria-expanded="false">
+            <h3>Netflix Clone</h3>
+            <p class="project-tagline">MERN streaming platform with auth, trailers &amp; search history</p>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-details">
+            <p>
+              A full MERN streaming platform built with MongoDB, Express.js,
+              React, and Node.js. Includes JWT authentication, protected
+              routes, a forgot/reset password flow, trailer playback via the
+              TMDB API, search history, and a fully responsive UI.
+            </p>
+            <div class="tag-row">
+              <span class="tag">MongoDB</span>
+              <span class="tag">Express</span>
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">JWT</span>
+              <span class="tag">TMDB API</span>
+            </div>
+            <a href="https://github.com/MuhammadUzaif30/Netflix-Clone" target="_blank" rel="noopener noreferrer" class="project-cta">
+              View on GitHub
+              <svg viewBox="0 0 16 16" class="arrow-icon" aria-hidden="true"><path d="M3 8h9.5M8.5 3.5 13 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-row reveal" data-open="false">
+          <button class="project-summary" aria-expanded="false">
+            <h3>Real-Time Chat Application</h3>
+            <p class="project-tagline">Socket.io messaging with JWT auth &amp; persistent storage</p>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-details">
+            <p>
+              A bi-directional real-time messaging app built with Socket.io,
+              featuring instant messaging, JWT authentication, and persistent
+              message storage in MongoDB.
+            </p>
+            <div class="tag-row">
+              <span class="tag">MongoDB</span>
+              <span class="tag">Express</span>
+              <span class="tag">React</span>
+              <span class="tag">Node.js</span>
+              <span class="tag">Socket.io</span>
+              <span class="tag">JWT</span>
+            </div>
+            <a href="https://github.com/MuhammadUzaif30/Netflix-Clone" target="_blank" rel="noopener noreferrer" class="project-cta">
+              View on GitHub
+              <svg viewBox="0 0 16 16" class="arrow-icon" aria-hidden="true"><path d="M3 8h9.5M8.5 3.5 13 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+        <article class="project-row reveal" data-open="false">
+          <button class="project-summary" aria-expanded="false">
+            <h3>Travel Karo</h3>
+            <p class="project-tagline">Responsive, frontend-only travel website</p>
+            <span class="project-plus" aria-hidden="true"></span>
+          </button>
+          <div class="project-details">
+            <p>
+              A responsive, frontend-only travel website built with HTML,
+              CSS, React, and vanilla JavaScript.
+            </p>
+            <div class="tag-row">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">React</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <a href="https://github.com/MuhammadUzaif30/Reacr-Music-Player" target="_blank" rel="noopener noreferrer" class="project-cta">
+              View on GitHub
+              <svg viewBox="0 0 16 16" class="arrow-icon" aria-hidden="true"><path d="M3 8h9.5M8.5 3.5 13 8l-4.5 4.5" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </article>
+
+      </div>
+      <p class="link-note reveal">GitHub links above are placeholders — update the <code>project-cta</code> hrefs in index.html with your real repo URLs.</p>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section">
+    <div class="section-grid">
+      <div class="section-head reveal">
+        <p class="label">04 — Skills</p>
+        <h2>What I work with.</h2>
+      </div>
+      <div class="skills-body">
+        <div class="skill-group reveal">
+          <p class="skill-label">Languages</p>
+          <div class="tag-row">
+            <span class="tag">Python</span><span class="tag">JavaScript</span><span class="tag">C++</span><span class="tag">SQL</span><span class="tag">Assembly</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <p class="skill-label">Frontend</p>
+          <div class="tag-row">
+            <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Tailwind CSS</span><span class="tag">React.js</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <p class="skill-label">Backend</p>
+          <div class="tag-row">
+            <span class="tag">Node.js</span><span class="tag">Express.js</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <p class="skill-label">Databases</p>
+          <div class="tag-row">
+            <span class="tag">MongoDB</span><span class="tag">SQL</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <p class="skill-label">Tools</p>
+          <div class="tag-row">
+            <span class="tag">Git / GitHub</span><span class="tag">Figma</span><span class="tag">Jira</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact-section">
+    <p class="label reveal">05 — Contact</p>
+    <h2 class="contact-headline reveal">Let's build<br />something.</h2>
+    <a href="mailto:malikuzaif789@gmail.com" class="contact-email reveal">malikuzaif789@gmail.com</a>
+    <div class="contact-meta reveal">
+      <button class="btn btn-line" id="copyEmailBtn" data-email="malikuzaif789@gmail.com">Copy email</button>
+      <a href="tel:03119684993" class="contact-phone">03119684993</a>
+      <span class="contact-location">Rawalpindi, Pakistan</span>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <span>© <span id="year"></span> Muhammad Uzaif</span>
+    <span class="footer-sep">·</span>
+    <a href="mailto:malikuzaif789@gmail.com">Email</a>
+    <span class="footer-sep">·</span>
+    <a href="https://github.com/MuhammadUzaif30#" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </footer>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
